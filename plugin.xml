@@ -44,7 +44,12 @@
             </array>
         </config-file>
         
-        
+        <config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
+            <string>photo library usage description</string>
+        </config-file>
+        <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
+            <string>camera usage description</string>
+        </config-file>
         
     </platform>
     
